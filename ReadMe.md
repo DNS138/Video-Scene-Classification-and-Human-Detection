@@ -7,17 +7,29 @@ This project classifies scenes in a video as either indoor or outdoor and detect
 Ensure your project directory has the following structure:
 
 project_directory/
+
     ├── app.py
+    
     ├── classifyScene.py
+    
     ├── detectPeople.py
+    
     ├── processSegments.py
+    
     ├── res10_300x300_ssd_iter_140000.caffemodel
+    
     ├── deploy.prototxt
+    
     └── output/
+    
         ├── indoor/
+        
         ├── outdoor/
+        
         ├── People_present/
+        
         ├── People_not_present/
+        
 
 ## Files Description
 
